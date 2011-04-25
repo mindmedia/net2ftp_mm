@@ -7,7 +7,7 @@
 	
 
 		<form id="LoginForm" action="<?php echo $net2ftp_globals["action_url"]; ?>" method="post" onsubmit="return CheckInput(this);">
-				<table style="background-color: #F778A1; border: 1px solid #003250;" border="0" cellpadding="2" cellspacing="0">
+				<table style="background-color: white ; border: 1px solid #003250;" border="0" cellpadding="2" cellspacing="0">
 					<tbody>
 <?php /* ----- FTP server ----- */ ?>
 						<tr>
