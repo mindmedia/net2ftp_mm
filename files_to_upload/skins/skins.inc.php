@@ -29,9 +29,26 @@ function getSkinArray() {
 	global $net2ftp_globals;
 
 // -------------------------------------------------------------------------
+// Amx_white
+// -------------------------------------------------------------------------
+        $skinArray["amx_white"]["name"]             = "Amx_white";
+        $skinArray["amx_white"]["iconset"]          = "nuvola";
+        $skinArray["amx_white"]["image_url"]        = $net2ftp_globals["application_rootdir_url"] . "/skins/amx_white/images";
+        $skinArray["amx_white"]["icon_size_mime"]   = "16";
+
+
+// -------------------------------------------------------------------------
+// Amx
+// -------------------------------------------------------------------------
+        $skinArray["amx"]["name"]             = "Amx";
+        $skinArray["amx"]["iconset"]          = "nuvola";
+        $skinArray["amx"]["image_url"]        = $net2ftp_globals["application_rootdir_url"] . "/skins/amx/images";
+        $skinArray["amx"]["icon_size_mime"]   = "16";
+
+
 // Blue
 // -------------------------------------------------------------------------
-	$skinArray["blue"]["name"]             = __("Blue");
+	$skinArray["blue"]["name"]             = "Blue";
 	$skinArray["blue"]["iconset"]          = "nuvola";
 	$skinArray["blue"]["image_url"]        = $net2ftp_globals["application_rootdir_url"] . "/skins/blue/images";
 	$skinArray["blue"]["icon_size_mime"]   = "16";

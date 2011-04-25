@@ -1,0 +1,50 @@
+net2ftp module 0.98
+====================
+Mindmedia company from Singapore has taken the v0.98 version from 
+http://www.net2ftp.org and enhanced the module.
+
+
+Mod  Date        Author      Changes
+=======================================
+1.   Mar 2011    Hock Sik   To include new skin (amx)
+2.   Apr 2011    Hock SIk   To include new skin (amx_white)
+
+
+Introduction.
+*************
+This is a module for allowing users to configure config files
+for accessing a ftp server
+
+It can be configured to use mysql in settings.inc.php. Run create_tables.sql to build tables. 
+Add in new skins to give a new skin name in this config file.
+
+The settings for ftp servers can be configured in settings_authorizations.inc.php. 
+
+
+Installation
+********************
+Refer to INSTALL.txt.
+
+For linux, place files from the folder (files_to_upload) into /var/www/html/net2ftp. 
+To start the web, type "http://localhost/net2ftp in the URL address of a browser.
+
+
+Copyrights:
+***********
+Refer to LICENSE.txt.
+
+
+UPGRADE
+*******
+net2ftp cannot really be "upgraded" - simply delete the old files on your web
+server, and follow the installation instructions above.
+
+If you are using a database for logging, drop the old tables and create new
+ones following the installation instructions. This will delete the existing
+statistics.
+
+If you need help, post a message on the net2ftp forum:
+    http://www.net2ftp.org/forums
+
+Enjoy!
+

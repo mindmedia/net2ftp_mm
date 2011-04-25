@@ -113,6 +113,8 @@ function net2ftp($action) {
 	$net2ftp_globals["application_pluginsdir"]   = $net2ftp_globals["application_rootdir"] . "/plugins";
 	$net2ftp_globals["application_skinsdir"]     = $net2ftp_globals["application_rootdir"] . "/skins";
 	$net2ftp_globals["application_tempdir"]      = $net2ftp_globals["application_rootdir"] . "/temp";
+        $net2ftp_globals["application_skinsdir2"]    = $net2ftp_globals["application_skinsdir"] . "/" . $net2ftp_settings["default_skin"];
+
 
 // -------------------------------------------------------------------------
 // Set basic settings

@@ -22,11 +22,11 @@
 
 // Enter your email address
 // This is used as "from" address when sending files in attachment
-$net2ftp_settings["email_feedback"] = "webmaster@enter-your-domain-here.com";
+$net2ftp_settings["email_feedback"] = "hsneo@mindmedia.com.sg";
 
 // Default language and skin (look in /languages and /skins to see which are available)
 $net2ftp_settings["default_language"] = "en";
-$net2ftp_settings["default_skin"]     = "blue";
+$net2ftp_settings["default_skin"]     = "amx";
 
 // Enter the address of your help pages, support forum or ticket system
 // This will add a link in the footer; leave empty if you don't have this
@@ -35,14 +35,14 @@ $net2ftp_settings["help_link"] = "";
 
 // PHP error reporting
 //$net2ftp_settings["error_reporting"] = "NONE";
-$net2ftp_settings["error_reporting"] = "standard";
-//$net2ftp_settings["error_reporting"] = "ALL";
+//$net2ftp_settings["error_reporting"] = "standard";
+$net2ftp_settings["error_reporting"] = "ALL";
 
 // Fix transparent PNG images in IE
 $net2ftp_settings["fix_png"] = "yes";
 
 // MD5 salt and encryption string (change them to improve security)
-$net2ftp_settings["encryption_string"] = "462E16CB7C3F369BD9F4DBEE0A926F8F14FFB3";
+$net2ftp_settings["encryption_string"] = "dkjshfklsjdfuwsgfsdakjfhlksdfkljdshflksdhflsdakfskadlflaksdg";
 
 
 // ----------------------------------------------------------------------------------
@@ -51,14 +51,14 @@ $net2ftp_settings["encryption_string"] = "462E16CB7C3F369BD9F4DBEE0A926F8F14FFB3
 // ----------------------------------------------------------------------------------
 
 $net2ftp_settings["admin_username"] = "admin";
-$net2ftp_settings["admin_password"] = "";
+$net2ftp_settings["admin_password"] = "plove";
 
 
 // ----------------------------------------------------------------------------------
 // Message on Browse screen
 // ----------------------------------------------------------------------------------
 
-$net2ftp_settings["message_browse"] = "";
+$net2ftp_settings["message_browse"] = "MindMedia is Great.";
 
 
 // ----------------------------------------------------------------------------------
@@ -68,13 +68,14 @@ $net2ftp_settings["message_browse"] = "";
 // ----------------------------------------------------------------------------------
 
 // MASTER SETTING that overrides the other settings below: use a database?
-$net2ftp_settings["use_database"] = "no"; // "yes" or "no"
+$net2ftp_settings["use_database"] = "yes"; // "yes" or "no"
 
 // Enter your MySQL settings
-$net2ftp_settings["dbusername"] = "";
-$net2ftp_settings["dbpassword"] = "";
-$net2ftp_settings["dbname"]     = "";
+$net2ftp_settings["dbusername"] = "root";
+$net2ftp_settings["dbpassword"] = "pvlove";
+$net2ftp_settings["dbname"]     = "net2ftp";
 $net2ftp_settings["dbserver"]   = "localhost"; // on many configurations, this is "localhost"
+
 
 // Switch different types of logs on or off
 $net2ftp_settings["log_access"] = "yes";
