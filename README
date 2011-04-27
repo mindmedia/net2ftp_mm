@@ -1,6 +1,6 @@
 net2ftp module 0.98
 ====================
-Mindmedia company from Singapore has taken the v0.98 version from 
+Mind & Media company from Singapore has taken the v0.98 version from 
 http://www.net2ftp.org and enhanced the module.
 
 
@@ -8,7 +8,7 @@ Mod  Date        Author      Changes
 =======================================
 1.   Mar 2011    Hock Sik   To include new skin (amx)
 2.   Apr 2011    Hock SIk   To include new skin (amx_white)
-
+3.   26 Apr 2011 Hock Sik   To amend filesystem.inc.php to include support for safari browser
 
 Introduction.
 *************

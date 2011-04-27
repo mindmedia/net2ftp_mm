@@ -3722,7 +3722,16 @@ function sendDownloadHeaders($filename, $filesize) {
 		header("Cache-Control: must-revalidate, post-check=0, pre-check=0");
 		header("Pragma: public");
 	} 
-	else {
+       //Safari Check
+       elseif ($net2ftp_globals["browser_agent"] == "Safari"){
+        header("Content-type: application/force-download");
+        header("Content-Transfer-Encoding: Binary");
+        header("Content-disposition: attachment; filename=\"".$filename_html."\"");
+        header("Content-Description: $filename_html");
+        header("Content-Length: $filesize");
+        header("Connection: close");
+        } //End If	
+       else {
 		// Firefox needs an asterisk to enable filenames with special characters
 		header("Content-Disposition: $content_disposition; filename*=\"" . $filename_html . "\"");
 		header("Pragma: no-cache");

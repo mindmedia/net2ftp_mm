@@ -1,6 +1,9 @@
 
 NET2FTP CHANGELOG
-
+April 2011: version 0.981
+=========================
+filesystem.inc.php includes support for safari browser
+This solution is from the forum of net2ftp.
 
 June 2009: version 0.98
 =======================
